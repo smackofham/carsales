@@ -4,8 +4,8 @@ from bs4scrape import BsScrape
 from cars import IndividualCar
 from excel import convert_data_to_excel_readable, write_data
 
-# url = str(input('Please paste the url of the search page.'))
-url = 'https://www.carsales.com.au/cars/toyota/corolla/victoria-state/under-5000/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
+url = str(input('Please paste the url of the search page.'))
+# url = 'https://www.carsales.com.au/cars/toyota/corolla/victoria-state/under-5000/?area=Stock&vertical=car&WT.z_srchsrcx=makemodel'
 
 print('The url is: ' + url)
 
